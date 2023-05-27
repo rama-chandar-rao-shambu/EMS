@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.formContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.formContainer h2 {
+  font-size: 2.3em;
+}
+.searchButton {
+  margin: 1.5em 0 3em 0 !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 20px;
+  background: aliceblue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+}
+form * {
+  font-size: 15px;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2.5em;
+  background: lightblue;
+  padding: 10px;
+}
+.navLink {
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+  padding: 20px;
+}
+.navLink a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+span {
+  margin: 0 0 0 10px;
+  color: red;
+}
+label {
+  font-size: 1.2em;
+  margin-right: 50px;
+}
+input[type="submit"] {
+  padding: 7px;
+  background: #a0e8ff;
+  border: 1px solid cadetblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form div:nth-child(3) label {
+  margin-right: 105px;
+}
+form div:nth-child(4) label {
+  margin-right: 17px;
+}
+form div:nth-child(5) label {
+  margin-right: 104px;
+}
+form div:nth-child(6) label {
+  margin-right: 41px;
+}
+
+form div:nth-child(7) label {
+  margin-right: 12px;
+}
+
+form div:nth-child(8) label {
+  margin-right: 20px;
+}
+.delete {
+  margin-right: 5px;
+}
+.employeeTable {
+  background: #343434;
+}
+.employeeTable th {
+  font-weight: bold;
+  color: white;
+}
+.employeeTable tr:nth-child(even) td {
+  background-color: #f6f6f6;
+}
+
+.employeeTable tr:nth-child(odd) td {
+  background-color: #fff;
+}
+.back {
+  margin-left: 15px !important;
+}
