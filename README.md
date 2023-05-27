@@ -13,8 +13,8 @@ Advanced search and filtering options for easy navigation and data exploration.
 # Technologies Used
 
 Front-end: React, Redux, HTML, CSS
-Back-end: Node.js, Express.js, MongoDB
-Additional Libraries: Mongoose, GraphQL
+Back-end: Node.js, Express.js, MongoDB, GraphQL
+Additional Libraries: Mongoose
 
 # Contributing
 
