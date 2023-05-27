@@ -1,4 +1,4 @@
-# Employee Management System**
+# Employee Management System
 
 This is an Employee Management System built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides a comprehensive solution for managing employees within an organization.
 
